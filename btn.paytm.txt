@@ -1,0 +1,24 @@
+<h5>recharge</h5>
+
+      <Row>
+     <Col lg={4} md={2}>
+     <button className='btn8'><TbDeviceMobileCharging className='btn9' />Mobile Recharge</button>
+      <button className='btn8'><LuSatelliteDish /> DTH Recharge</button>
+      <button className='btn8'><FaCar  className='btn9'/>Fast Tag Recharge</button>
+      <button className='btn8'><FaArrowRight className='btn9' />View All Products</button>
+
+      <button className='btn10'> */}
+        Do Mobile Recharge and win ₹100 cashback.promo:TAKEITALL
+        <button className='btn11'><FaArrowRight className='btn12' />Recharge Now</button>
+      </button>
+        
+     
+     
+     
+     </Col>
+
+
+
+      </Row>
+
+      

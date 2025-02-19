@@ -1,0 +1,134 @@
+import React from 'react'
+import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './components/Home';
+import Acc from './components/Acc';
+import lion from './images/pic.jpg'
+const App = () => {
+  return (
+    <div>
+
+      <div className='navv'>
+
+        <h2 className='lw abc'>Logo</h2>
+        <h2 className='lm abc'>L</h2>
+        <h2 className='lt abc'>Lo</h2>
+
+
+        <ul className='men'>
+          <li>Menu</li>
+          <li>Menu</li>
+
+          <li>Menu</li>
+
+          <li>Menu</li>
+          <li>Menu</li>
+
+        </ul>
+      </div>
+  
+
+  <img src={lion} className='im1'></img>
+    </div>
+  )
+}
+
+export default App
+
+
+
+
+-------------------------------------------------------------------------
+
+
+.navv{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: blueviolet;
+}
+
+.men{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.abc{
+  font-size: 28px;
+}
+
+.im1{
+  width: 500px;
+  height: 700px;
+}
+
+
+
+.lt{
+  display: block;
+}
+
+.lw, .lm{
+  display: none;
+}
+/* MEDIA QUERY */
+
+/* SYSTEM OR PC SCREEN VIEW/ */
+@media only screen and (min-width: 1200px) {
+
+ .navv{
+  background-color: blue;
+
+ }
+ .abc{
+  font-size: 35px;
+  color: white;
+}
+
+.im1{
+  width: 700px;
+  height: 700px;
+}
+
+.men{
+  width: 40%;}
+
+  .lt, .lm{
+    display: none;
+  }
+
+  .lw{
+    display: block;
+  }
+}
+
+
+/* /MOBILE SCREEN VIEW/ */
+@media only screen and (max-width: 600px) {
+  .navv{
+    background-color: orange;
+  
+   }
+   .abc{
+    font-size: 15px;
+    color: white;
+  }
+
+  .im1{
+    width: 300px;
+    height: 300px;
+  }
+  
+.lw, .lt{
+  display: none;
+}
+.lm{
+  display: block;
+}
+
+}
+
+
+
+/* width, color fontsize height margin padding */

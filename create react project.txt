@@ -1,0 +1,25 @@
+open terminal - contrl + ~ or ... dots+teminal+newterminal
+
+1. open terminal and type ---> npx create-react-app yourprojectname(it will create a project with the given name)
+2. if it shows any error like web-vitals.  open your newproject folder
+3. open terminal again ---> npm i web-vitals
+4. npm start ---> it will show our project in webpage
+
+
+
+
+
+------------page setup--------------
+copy and keep    import './App.css'; in app.js
+2. clear app.js.
+3. then type rafce--->click on the sugg 
+4. paste that css link
+5. clear app.css
+
+
+
+--------react boostrap---------------
+
+1. open new terminal
+2. open web page and get npm install react-bootstrap bootstrap   . paste it inside the terminal so the package will be installed
+3. place this link after your css statement in App.js   import 'bootstrap/dist/css/bootstrap.min.css';
